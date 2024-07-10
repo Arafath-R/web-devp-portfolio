@@ -11,6 +11,9 @@
 .bg-secondary{
     background-color: #FFF8F3;
 }
+.text-center{
+    text-align: center;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -95,12 +98,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom:130px;
+}
+
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -113,4 +120,19 @@ main{
 .item-discription{
     font-weight:600;
     font-size: 20px;
+}
+/* about skills */
+
+.skills-container{
+    display:flex;
+    gap: 24px;
+}
+.dis{
+    max-width: 900px;
+    margin: 39px auto;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
